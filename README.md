@@ -1,4 +1,5 @@
 # Kafka .NET Core Producer and Consumer 
+Updated on 2024/08/19 to use the available 6.0.425 SDK and changed from runtime image to aspnet image
 
 ## Introduction
 This sample app contains a .NET Core application that produces sample data on to a Kafka topic and the also consumes the topic data. The [Kafka](https://kafka.apache.org/) broker, [Zookeeper](https://zookeeper.apache.org/) & [control center](https://docs.confluent.io/current/control-center/index.html) is docker images that gets pulled in the docker-compose file.
